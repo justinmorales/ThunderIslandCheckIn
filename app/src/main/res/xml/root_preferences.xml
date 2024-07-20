@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Day">
+
+        <SwitchPreference
+            android:defaultValue="True"
+            android:key="day1"
+            android:title="Day 1" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="day2"
+            android:title="Day 2" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="day3"
+            android:title="Day 3" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="day4"
+            android:title="Day 4" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="day5"
+            android:title="Day 5" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
